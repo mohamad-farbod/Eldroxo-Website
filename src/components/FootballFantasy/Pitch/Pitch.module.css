@@ -1,0 +1,164 @@
+.pitch {
+  background-image: url("../../../data/images/pitch.png");
+  height: 555px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* border: 1px solid red; */
+  position: relative;
+  top: -10rem;
+}
+
+.goalkeeper {
+  position: absolute;
+  bottom: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.defenders {
+  position: absolute;
+  bottom: 6rem;
+  left: 0rem;
+  text-align: center;
+  width: 100%;
+
+  height: 100px;
+}
+
+.midfielders {
+  position: absolute;
+  bottom: 13rem;
+
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.attackers {
+  position: absolute;
+  bottom: 22rem;
+  width: 100%;
+  padding: 0.5em;
+  text-align: center;
+  height: 4em;
+}
+
+.single-player {
+  margin: 0 10px;
+  border-radius: 50px;
+  background-color: black;
+
+  display: inline-block;
+  height: 3em;
+  width: 10em;
+}
+
+.single-player h3 {
+  color: wheat;
+  font-style: italic;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn-container {
+  /* position: absolute; */
+  /* bottom: -3.9rem;
+  right: 8rem; */
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: -9.7em;
+}
+
+.btn-container button {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: rgba(97, 230, 9, 0.8);
+  -webkit-text-stroke: 0.3px #d8690f;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-container button:hover {
+  background-color: rgba(52, 119, 8, 0.8);
+  color: yellow;
+  transform: scale(1.1);
+}
+
+.modal {
+  width: 35em;
+  height: 15em;
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  z-index: 100000;
+  background-color: white;
+}
+
+.form-container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-container input {
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  height: 2.5rem;
+  margin-bottom: 2rem;
+  padding-left: 15px;
+}
+
+.btn {
+  margin: 13px;
+  padding: 8px 10px;
+  border-radius: 9px;
+  width: 6rem;
+  font-size: 16px;
+}
+
+.btn-submit {
+  background-color: rgb(10, 117, 10);
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: rgb(3, 59, 3);
+  color: rgb(224, 169, 16);
+  cursor: pointer;
+}
+
+.btn-cancel {
+  cursor: pointer;
+  background-color: rgb(218, 56, 38);
+}
+.btn-cancel:hover {
+  background-color: rgb(85, 11, 2);
+  color: wheat;
+}
+
+.btn:disabled {
+  background-color: rgb(228, 216, 216);
+  cursor: not-allowed;
+}
+
+@media (max-width: 700px) {
+  .single-player h3 {
+    font-size: 0.8em;
+    padding: 0;
+    align-items: center;
+  }
+  .single-player {
+    height: 2em;
+    width: 4em;
+    margin: 0.5em;
+  }
+  .attackers {
+    bottom: 25rem;
+  }
+}

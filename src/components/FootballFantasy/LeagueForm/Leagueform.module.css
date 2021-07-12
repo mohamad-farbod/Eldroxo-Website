@@ -1,0 +1,26 @@
+select {
+  width: 12rem;
+  color: aqua;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: black;
+  /* text-align: end; */
+  outline: none;
+  cursor: pointer;
+
+  font-size: 18px;
+}
+
+select option {
+  text-align: center;
+  /* color: blue; */
+  color: aqua;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.leagueform-container h2 {
+  -webkit-text-stroke: 0.5px rgb(19, 168, 255);
+}

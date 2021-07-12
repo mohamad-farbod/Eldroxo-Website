@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bodyContainer {
+  display: flex;
+  height: 630px;
+  /* position: fixed; */
+  /* top: 0; */
+
+  /* border: 1px solid blue; */
+}
+
+.chelseaBG {
+  flex: 1;
+  background-image: url("https://3.bp.blogspot.com/-wCAhxfMoTco/VwaRGApsL4I/AAAAAAAABg8/TUGhbylyCw0eXfa6YeJyRLiN_aGXvUE1A/s1600/Chelsea%2BWallpaper%2B2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+  transition: all 1s ease;
+  z-index: -1;
+}
+
+.chelseaBG:hover {
+  filter: brightness(0.5);
+}
+.pizzaBG {
+  flex: 1;
+  background-image: url("https://spainwalk.com/wp-content/uploads/2018/02/pizza-barcelona-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+  transition: all 1s ease;
+  z-index: -1;
+}
+
+.pizzaBG:hover {
+  filter: brightness(0.5);
+}

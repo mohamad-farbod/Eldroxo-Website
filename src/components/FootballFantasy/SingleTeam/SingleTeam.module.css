@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 15rem; */
+  border: 1px solid yellow;
+  border-radius: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 8rem;
+  margin: 0 20px 15px;
+  text-align: center;
+  width: 25%;
+}
+
+.container h4 {
+  color: wheat;
+  padding: 10px;
+}
+.container h5 {
+  color: aqua;
+  padding: 10px;
+  font-style: italic;
+}
+.container-big {
+  height: 12rem;
+}
+
+.card-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  width: 110px;
+  border: 1px solid green;
+  height: 90px;
+  background-position: center;
+  border-radius: 50px;
+  filter: brightness(0.7);
+}
+
+.card-container:hover {
+  filter: brightness(1);
+  cursor: pointer;
+}
+
+.players-container {
+  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px 40px;
+  padding: 20px 10px;
+  height: 12rem;
+}
+
+.players-container h4 {
+  font-style: italic;
+  color: wheat;
+  margin: 15px;
+  font-size: 15px;
+}
+
+.single-player {
+  padding: 3px 7px;
+  margin: 0 4px 0 10px;
+  border: 1px solid wheat;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.single-player:hover {
+  color: aqua;
+  border: 1px solid aqua;
+}

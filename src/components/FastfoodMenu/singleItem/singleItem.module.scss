@@ -1,0 +1,114 @@
+.container {
+  min-width: 10em;
+  max-width: 16em;
+  /* border: 1px solid red; */
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px gray;
+  text-align: center;
+  padding: 0.9em;
+  margin: 1em;
+  height: 19.5em;
+  align-items: center;
+  background-color: white;
+  // z-index: 1;
+  // color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.image-container {
+  // border: 1px solid blue;
+  width: 100%;
+  img {
+    width: 90%;
+    height: 8em;
+    margin: 10px auto 1px;
+    border-radius: 20px;
+    transition: 0.8s all ease-in;
+    &:hover {
+      z-index: 10000;
+      transform: scale(1.4);
+    }
+  }
+}
+
+.ingredients-container {
+  margin: 2px auto 10px;
+  padding-bottom: 3.2em;
+  border-bottom: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  height: 3em;
+  align-items: center;
+  h5 {
+    // margin-bottom: 4px;
+    margin-top: 3px;
+  }
+  h6 {
+    margin-top: 3px;
+    // margin-bottom: 20px;
+    font-size: 0.81em;
+  }
+}
+
+.price-container {
+  display: flex;
+  // border: 1px solid red;
+  // margin-top: 0.3em;
+  align-items: center;
+  height: 1.5em;
+
+  justify-content: space-between;
+
+  .decrease-btn:hover {
+    background-color: rgb(236, 51, 5);
+    transform: scale(1.08);
+    border-radius: 3px;
+  }
+
+  button {
+    // padding: 1px 1px;
+    margin: 2px 4px;
+    cursor: pointer;
+    font-size: 1.01em;
+    text-align: center;
+    align-items: center;
+    width: 1.3em;
+
+    &:disabled {
+      pointer-events: none;
+    }
+    &:hover {
+      background-color: rgb(62, 182, 15);
+      transform: scale(1.08);
+      border-radius: 3px;
+    }
+  }
+}
+
+.amount-container {
+  margin: 0.3em auto;
+  letter-spacing: 2px;
+  background-color: black;
+  color: wheat;
+  width: 50%;
+  border-radius: 5px;
+  padding: 5px 3px;
+}
+
+.zero-amount {
+  background-color: red;
+  color: wheat;
+  border-radius: 5px;
+  padding: 1px 3px;
+  margin-left: 1em;
+  font-size: 1.1em;
+}
+
+.more-amount {
+  background-color: rgb(6, 145, 24);
+  color: wheat;
+  border-radius: 5px;
+  padding: 1px 3px;
+  margin-left: 1em;
+  font-size: 1.1em;
+}
