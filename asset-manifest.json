@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Eldroxo-Website/static/css/main.0e244ea4.chunk.css",
+    "main.js": "/Eldroxo-Website/static/js/main.d67f7caa.chunk.js",
+    "main.js.map": "/Eldroxo-Website/static/js/main.d67f7caa.chunk.js.map",
+    "runtime-main.js": "/Eldroxo-Website/static/js/runtime-main.b27bcadd.js",
+    "runtime-main.js.map": "/Eldroxo-Website/static/js/runtime-main.b27bcadd.js.map",
+    "static/js/2.5f190819.chunk.js": "/Eldroxo-Website/static/js/2.5f190819.chunk.js",
+    "static/js/2.5f190819.chunk.js.map": "/Eldroxo-Website/static/js/2.5f190819.chunk.js.map",
+    "index.html": "/Eldroxo-Website/index.html",
+    "static/css/main.0e244ea4.chunk.css.map": "/Eldroxo-Website/static/css/main.0e244ea4.chunk.css.map",
+    "static/js/2.5f190819.chunk.js.LICENSE.txt": "/Eldroxo-Website/static/js/2.5f190819.chunk.js.LICENSE.txt",
+    "static/media/Bigmac.c9b8fa96.jpg": "/Eldroxo-Website/static/media/Bigmac.c9b8fa96.jpg",
+    "static/media/CheeseBurger.48ce02f9.jpg": "/Eldroxo-Website/static/media/CheeseBurger.48ce02f9.jpg",
+    "static/media/CheeseSteak.9d535d73.jpg": "/Eldroxo-Website/static/media/CheeseSteak.9d535d73.jpg",
+    "static/media/CordonBleu.49f808b1.jpg": "/Eldroxo-Website/static/media/CordonBleu.49f808b1.jpg",
+    "static/media/FriedChicken.5af05664.jpg": "/Eldroxo-Website/static/media/FriedChicken.5af05664.jpg",
+    "static/media/Hotdog.69ef3a4e.jpg": "/Eldroxo-Website/static/media/Hotdog.69ef3a4e.jpg",
+    "static/media/Marinara.09d8a853.jpg": "/Eldroxo-Website/static/media/Marinara.09d8a853.jpg",
+    "static/media/Salami.44307792.jpg": "/Eldroxo-Website/static/media/Salami.44307792.jpg",
+    "static/media/VegiBurger.7cc666d8.jpg": "/Eldroxo-Website/static/media/VegiBurger.7cc666d8.jpg",
+    "static/media/arsenal.d975dfdc.jpg": "/Eldroxo-Website/static/media/arsenal.d975dfdc.jpg",
+    "static/media/FastfoodMenu.module.scss": "/Eldroxo-Website/static/media/background.deb97621.jpg",
+    "static/media/barcelona.9c007a6d.jpg": "/Eldroxo-Website/static/media/barcelona.9c007a6d.jpg",
+    "static/media/bayern.2055aafa.jpg": "/Eldroxo-Website/static/media/bayern.2055aafa.jpg",
+    "static/media/eldroxo.819b6ca8.jpg": "/Eldroxo-Website/static/media/eldroxo.819b6ca8.jpg",
+    "static/media/pepperoni.857ee05a.jpg": "/Eldroxo-Website/static/media/pepperoni.857ee05a.jpg",
+    "static/media/Pitch.module.css": "/Eldroxo-Website/static/media/pitch.57b107f4.png",
+    "static/media/FootballFantasy.module.css": "/Eldroxo-Website/static/media/pitchbg.47f141e1.jpg",
+    "static/media/real.ea799a19.jpg": "/Eldroxo-Website/static/media/real.ea799a19.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b27bcadd.js",
+    "static/js/2.5f190819.chunk.js",
+    "static/css/main.0e244ea4.chunk.css",
+    "static/js/main.d67f7caa.chunk.js"
+  ]
+}
