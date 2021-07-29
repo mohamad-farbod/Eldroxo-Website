@@ -26,7 +26,9 @@ const About = () => {
             <AiOutlineGithub />
             Github:
             <span>
-              <a href="https://github.com/mohamad-farbod">Mohamad-Farbod</a>
+              <a href="https://github.com/mohamad-farbod">
+                https://github.com/mohamad-farbod
+              </a>
             </span>
           </h3>
         </div>
