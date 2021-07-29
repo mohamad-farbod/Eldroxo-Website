@@ -1,0 +1,70 @@
+.projects-container {
+  ul {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    margin: auto;
+    // border: 1px solid yellow;
+    width: 100%;
+    padding: 1em;
+
+    li {
+      background-color: rgb(255, 255, 255);
+      color: black;
+      margin: 1em 3em 6em;
+      border-radius: 2em;
+      padding: 0em 2em 2em;
+      // border: 1px solid red;
+      width: 40%;
+      align-self: flex-start;
+    }
+  }
+}
+
+.single-project-container {
+  cursor: pointer;
+  .image-container {
+    width: 100%;
+    // height: 5em;
+    // border: 1px solid blue;
+    border-radius: 2em;
+
+    img {
+      width: 100%;
+      border-radius: 2em;
+      height: 100%;
+    }
+  }
+
+  div {
+    min-height: 15em;
+
+    flex: 1;
+    // border: 1px solid green;
+  }
+
+  h3 {
+    text-align: center;
+    padding: 0.5em;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 80%;
+    font-size: 1.5em;
+    border-bottom: 2px solid black;
+  }
+
+  h4 {
+    font-family: "Baloo Chettan 2", cursive;
+  }
+  p {
+    margin: 1em 0 0 0;
+  }
+  &:hover {
+    img {
+      transform: scale(1.03);
+      transition: all 0.1s ease-in;
+    }
+  }
+}

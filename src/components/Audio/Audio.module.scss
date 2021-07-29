@@ -1,0 +1,19 @@
+.audio {
+  margin-left: 70vw;
+  // padding: 0 1em;
+  // background-color: white;
+  border-radius: 1em;
+  width: fit-content;
+  position: absolute;
+  top: 0.5em;
+  .audio-close {
+    position: absolute;
+    right: 1px;
+    font-size: 1.2em;
+    top: 5%;
+    color: black;
+    cursor: pointer;
+    // padding: 0 2em;
+  }
+  z-index: 1000;
+}

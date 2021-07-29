@@ -6,6 +6,7 @@ import Pitch from "./Pitch/Pitch";
 import SingleTeam from "./SingleTeam/SingleTeam";
 import { allTeams } from "./teamService";
 import { useSelector } from "react-redux";
+import HomeButton from "../HomeButton/HomeButton";
 
 const FootballFantasy = () => {
   const [teams, setTeams] = useState(allTeams);
@@ -32,6 +33,7 @@ const FootballFantasy = () => {
   return (
     <>
       <div className={styles["fantasy-container"]}>
+        <HomeButton />
         {backdrop && <div className={styles["backdrop"]}></div>}
         <div className={styles["league-container"]}>
           <Leagueform leagueValue={league} leagueSelect={leagueSelectHandler} />

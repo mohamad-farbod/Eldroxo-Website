@@ -1,0 +1,41 @@
+.home-button {
+  position: absolute;
+  top: 0.1em;
+  left: 0.1em;
+  font-size: 2em;
+  border-radius: 2em;
+  color: rgb(215, 201, 221);
+  cursor: pointer;
+  padding: 0.1em;
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  &:hover {
+    transform: scale(1.01);
+    h6 {
+      display: block;
+    }
+  }
+
+  h6 {
+    display: none;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    width: max-content;
+    margin-top: 1em;
+    font-size: 0.4em;
+    z-index: 1000;
+    color: red;
+    background-color: white;
+  }
+}

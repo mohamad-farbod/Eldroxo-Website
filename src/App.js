@@ -1,16 +1,17 @@
 import "./App.css";
-import HomePage from "./components/layout/homePage";
+import HomePage from "./components/layout/HomePage/homePage";
+import Audio from "./components/Audio/Audio";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Navbar from "./components/layout/navbar/navbar";
 import FootballFantasy from "./components/FootballFantasy/FootballFantasy";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/layout/Footer/Footer";
 import FastfoodMenu from "./components/FastfoodMenu/FastfoodMenu";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Audio />
       <Switch>
         <Route path="/footballfantasy" component={FootballFantasy} />
         <Route path="/about" component={About} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" exact component={HomePage} />
         <Redirect to="/" />
       </Switch>
+      <Footer></Footer>
     </>
   );
 }

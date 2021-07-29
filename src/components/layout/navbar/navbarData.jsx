@@ -18,5 +18,4 @@ export const navbarData = [
     description: "A little description about me and how I got here :D",
     path: "/about",
   },
-  { id: 5, name: "Contact Me", description: "", path: "/contact" },
 ];

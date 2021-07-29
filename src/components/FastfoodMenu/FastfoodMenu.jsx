@@ -3,6 +3,7 @@ import styles from "./FastfoodMenu.module.scss";
 import { menu, categories } from "./data/fastFoodItems";
 import SingleItem from "./singleItem/singleItem";
 import Profile from "./Profile/Profile";
+import HomeButton from "../HomeButton/HomeButton";
 
 const FastfoodMenu = () => {
   const [food, setFood] = useState(menu);
@@ -44,6 +45,7 @@ const FastfoodMenu = () => {
 
   return (
     <div className={styles["container"]}>
+      <HomeButton />
       <div className={styles["menus-container"]}>
         <div className={styles["fastfood-container"]}>
           <nav className={styles["category-nav"]}>
