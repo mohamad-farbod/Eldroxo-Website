@@ -9,6 +9,7 @@
     margin: 0em auto 1em;
     padding: 0.5em;
     width: fit-content;
+    max-width: 70%;
     font-size: 3.5em;
     color: var(--primary-color);
     letter-spacing: 4px;
@@ -112,6 +113,7 @@
     content: "";
     background-size: contain;
     // border: 10px solid red;
+    background-repeat: repeat;
     background-image: url("./images/background3.jpg");
     position: absolute;
     top: 0;
@@ -162,5 +164,48 @@
   h1 {
     color: rgb(224, 193, 13);
     border-color: rgb(224, 193, 13);
+  }
+}
+.home-container {
+  @media (max-width: 720px) {
+    .welcome-container {
+      h1 {
+        padding-top: 2em;
+      }
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+    p {
+      // margin: 0;
+      // border: 1px solid red;
+      font-size: 1.5em;
+      width: 90%;
+    }
+    .icons-container {
+      ul {
+        padding-bottom: 0em;
+
+        li {
+          font-size: 5em;
+        }
+      }
+      padding-bottom: 0em;
+    }
+
+    .skills-container {
+      text-align: center;
+
+      li {
+        width: 100%;
+        font-size: 1em;
+        padding: 1px 10px;
+      }
+      button {
+        font-size: 1em;
+      }
+      padding-bottom: 2em;
+    }
   }
 }

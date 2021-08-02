@@ -17,3 +17,10 @@
   }
   z-index: 1000;
 }
+
+@media (max-width: 720px) {
+  .audio {
+    width: fit-content;
+    margin: auto 30%;
+  }
+}
