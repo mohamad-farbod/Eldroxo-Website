@@ -10,7 +10,7 @@ import FastfoodMenu from "./components/FastfoodMenu/FastfoodMenu";
 function App() {
   return (
     <>
-      <Audio />
+      {/* <Audio /> */}
       <Switch>
         <Route path="/footballfantasy" component={FootballFantasy} />
         <Route path="/about" component={About} />
