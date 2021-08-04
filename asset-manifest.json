@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Eldroxo-Website/static/css/main.3c3c6b6a.chunk.css",
-    "main.js": "/Eldroxo-Website/static/js/main.1cda30fa.chunk.js",
-    "main.js.map": "/Eldroxo-Website/static/js/main.1cda30fa.chunk.js.map",
+    "main.css": "/Eldroxo-Website/static/css/main.4913e2e0.chunk.css",
+    "main.js": "/Eldroxo-Website/static/js/main.a0d76b9a.chunk.js",
+    "main.js.map": "/Eldroxo-Website/static/js/main.a0d76b9a.chunk.js.map",
     "runtime-main.js": "/Eldroxo-Website/static/js/runtime-main.b27bcadd.js",
     "runtime-main.js.map": "/Eldroxo-Website/static/js/runtime-main.b27bcadd.js.map",
-    "static/js/2.5e6a1407.chunk.js": "/Eldroxo-Website/static/js/2.5e6a1407.chunk.js",
-    "static/js/2.5e6a1407.chunk.js.map": "/Eldroxo-Website/static/js/2.5e6a1407.chunk.js.map",
+    "static/js/2.c1e2ac4b.chunk.js": "/Eldroxo-Website/static/js/2.c1e2ac4b.chunk.js",
+    "static/js/2.c1e2ac4b.chunk.js.map": "/Eldroxo-Website/static/js/2.c1e2ac4b.chunk.js.map",
     "index.html": "/Eldroxo-Website/index.html",
-    "static/css/main.3c3c6b6a.chunk.css.map": "/Eldroxo-Website/static/css/main.3c3c6b6a.chunk.css.map",
-    "static/js/2.5e6a1407.chunk.js.LICENSE.txt": "/Eldroxo-Website/static/js/2.5e6a1407.chunk.js.LICENSE.txt",
+    "static/css/main.4913e2e0.chunk.css.map": "/Eldroxo-Website/static/css/main.4913e2e0.chunk.css.map",
+    "static/js/2.c1e2ac4b.chunk.js.LICENSE.txt": "/Eldroxo-Website/static/js/2.c1e2ac4b.chunk.js.LICENSE.txt",
     "static/media/Bigmac.c9b8fa96.jpg": "/Eldroxo-Website/static/media/Bigmac.c9b8fa96.jpg",
     "static/media/CheeseBurger.48ce02f9.jpg": "/Eldroxo-Website/static/media/CheeseBurger.48ce02f9.jpg",
     "static/media/CheeseSteak.9d535d73.jpg": "/Eldroxo-Website/static/media/CheeseSteak.9d535d73.jpg",
@@ -26,7 +26,6 @@
     "static/media/bayern.2055aafa.jpg": "/Eldroxo-Website/static/media/bayern.2055aafa.jpg",
     "static/media/fantasy.6c29f8e0.jpg": "/Eldroxo-Website/static/media/fantasy.6c29f8e0.jpg",
     "static/media/fastfood.ba2e30f8.jpg": "/Eldroxo-Website/static/media/fastfood.ba2e30f8.jpg",
-    "static/media/music.0f5ab700.mp3": "/Eldroxo-Website/static/media/music.0f5ab700.mp3",
     "static/media/pepperoni.857ee05a.jpg": "/Eldroxo-Website/static/media/pepperoni.857ee05a.jpg",
     "static/media/Pitch.module.css": "/Eldroxo-Website/static/media/pitch.57b107f4.png",
     "static/media/FootballFantasy.module.css": "/Eldroxo-Website/static/media/pitchbg.47f141e1.jpg",
@@ -35,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b27bcadd.js",
-    "static/js/2.5e6a1407.chunk.js",
-    "static/css/main.3c3c6b6a.chunk.css",
-    "static/js/main.1cda30fa.chunk.js"
+    "static/js/2.c1e2ac4b.chunk.js",
+    "static/css/main.4913e2e0.chunk.css",
+    "static/js/main.a0d76b9a.chunk.js"
   ]
 }
